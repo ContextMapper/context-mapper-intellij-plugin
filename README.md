@@ -4,6 +4,8 @@
 
 > **_NOTE:_** This plugin is a proof of concept. It does not support all Context Mapper features yet.
 
+[![IntelliJ Plugin Build](https://github.com/ContextMapper/context-mapper-intellij-plugin/actions/workflows/build.yml/badge.svg)](https://github.com/ContextMapper/context-mapper-intellij-plugin/actions/workflows/build.yml) [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=ContextMapper_context-mapper-intellij-plugin&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=ContextMapper_context-mapper-intellij-plugin) [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+
 [Context Mapper](https://contextmapper.org/) is an open source tool providing a Domain-specific Language based on Domain-Driven Design (DDD) patterns for context mapping and service decomposition.
 
 ## System Requirements
