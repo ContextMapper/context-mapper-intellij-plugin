@@ -28,7 +28,7 @@ Make sure that the token includes the **package:read** permission.
 
 To configure the registry and authentication, add this configuration to the `.npmrc` file in your home directory.
 ```
-@lstreckeisen:registry=https://npm.pkg.github.com
+@contextmapper:registry=https://npm.pkg.github.com
 //npm.pkg.github.com/:_authToken=<TOKEN>
 ```
 
