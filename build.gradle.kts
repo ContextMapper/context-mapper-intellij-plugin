@@ -117,7 +117,7 @@ tasks {
         group = LifecycleBasePlugin.BUILD_GROUP
         dependsOn(npmInstall)
 
-        val packagePath = file("lsp/node_modules/@lstreckeisen/context-mapper-language-server")
+        val packagePath = file("lsp/node_modules/@contextmapper/context-mapper-language-server")
         val sourcePath =
             if (Files.isSymbolicLink(packagePath.toPath())) { // for local development
                 packagePath.toPath().toRealPath().resolve("cml-ls")

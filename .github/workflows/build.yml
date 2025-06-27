@@ -38,7 +38,7 @@ jobs:
 
       - name: Create .npmrc
         working-directory: lsp
-        run: echo -e "@lstreckeisen:registry=https://npm.pkg.github.com\n//npm.pkg.github.com/:_authToken=${{ secrets.NPM_TOKEN }}" > .npmrc
+        run: echo -e "@contextmapper:registry=https://npm.pkg.github.com\n//npm.pkg.github.com/:_authToken=${{ secrets.GITHUB_TOKEN }}" > .npmrc
 
       - name: Plugin Linting
         run: ./gradlew ktlintCheck
